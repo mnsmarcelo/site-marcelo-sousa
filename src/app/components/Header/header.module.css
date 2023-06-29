@@ -1,13 +1,13 @@
 .brand {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.7rem;
     text-decoration: none;
-    color: #222;
+    color: #e8e8e8;
 }
 
 .siteHeader {
     position: relative;
-    background-color: #def7ff;
+    background-color: #0e0e0e;
 }
 
 .siteHeaderWrapper {
@@ -40,7 +40,7 @@
         right: 0;
         left: 0;
         z-index: -1;
-        background-color: #d9f0f7;
+        background-color: #e5e5e5;
         visibility: hidden;
         opacity: 0;
         transform: translateY(-100%);
@@ -58,6 +58,7 @@
     display: block;
     padding: 1.5rem 1rem;
     text-decoration: none;
+    color: aliceblue;
 }
 
 .navToggle {

@@ -4,12 +4,18 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
-import { Header } from './components';
+import { Header, HomeIntro, HomeWrapper } from './components';
 
 export default function Home() {
   return (
     <>
-      <Header />
+        <HomeWrapper>
+            <>
+                <Header />
+                <HomeIntro/>
+            </>
+        </HomeWrapper>
+
     </>
   )
 }

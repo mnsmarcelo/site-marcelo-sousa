@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Container } from '../Container/Container';
-
 import styles from './header.module.css'
 
 export const Header: React.FC = () => {
