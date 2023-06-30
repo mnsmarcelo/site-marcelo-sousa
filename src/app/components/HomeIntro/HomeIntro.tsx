@@ -18,9 +18,14 @@ export const HomeIntro: React.FC = () => {
                     </span>
                 </div>
                 <div className={styles.buttonCVWrapper}>
-                    <button className={styles.button64} role="button">
+                    <a
+                        href="https://marcelosousa.tech/cv/marcelo-sousa.resume.pdf"
+                        target="_blank"
+                        className={styles.button64}
+                        title="Curriculum vitae"
+                        role="button">
                         <span className="text">Download CV</span>
-                    </button>
+                    </a>
                 </div>
                 <div className={styles.socialLinks}>
                     <a href="https://github.com/mnsmarcelo"
