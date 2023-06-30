@@ -7,6 +7,7 @@ const quicksand = Quicksand({ subsets: ['latin'] });
 export const metadata = {
   title: 'Marcelo Sousa',
   description: 'Web Developer',
+  themeColor: '#13131f',
 }
 
 export default function RootLayout({
