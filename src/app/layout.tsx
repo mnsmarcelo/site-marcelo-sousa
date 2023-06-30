@@ -5,7 +5,7 @@ const quicksand = Quicksand({ subsets: ['latin'] });
 
 
 export const metadata = {
-  title: 'Marcelo Sousa',
+  title: 'Marcelo Sousa | Web Developer',
   description: 'Web Developer',
   themeColor: '#13131f',
 }
