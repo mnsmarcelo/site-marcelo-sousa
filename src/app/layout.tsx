@@ -1,14 +1,14 @@
-import './globals.css'
-import { Quicksand } from 'next/font/google'
+import './globals.css';
+import React from 'react';
+import { Quicksand } from 'next/font/google';
 
 const quicksand = Quicksand({ subsets: ['latin'] });
-
 
 export const metadata = {
   title: 'Marcelo Sousa | Web Developer',
   description: 'Web Developer',
-  themeColor: '#13131f',
-}
+  themeColor: '#5B42F3',
+};
 
 export default function RootLayout({
   children,
@@ -19,5 +19,5 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={quicksand.className}>{children}</body>
     </html>
-  )
+  );
 }
