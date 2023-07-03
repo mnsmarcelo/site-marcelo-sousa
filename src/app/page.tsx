@@ -1,13 +1,18 @@
 import React from 'react';
-import { Header, HomeIntro, HomeWrapper } from './components';
+import {
+  Header, HomeIntro, HomeWrapper, About,
+} from './components';
 
 export default function Home() {
   return (
-    <HomeWrapper>
-      <>
-        <Header />
-        <HomeIntro />
-      </>
-    </HomeWrapper>
+    <>
+      <HomeWrapper>
+        <>
+          <Header />
+          <HomeIntro />
+        </>
+      </HomeWrapper>
+      <About />
+    </>
   );
 }

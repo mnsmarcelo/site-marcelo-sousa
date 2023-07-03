@@ -1,0 +1,41 @@
+.aboutSection {
+  background: #090909;
+  height: 700px;
+}
+
+.sectionHead {
+  margin-bottom: 5rem;
+  width: 100%;
+}
+
+.profilePicture {
+  border-radius: 50%;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 12px 20px -5px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.aboutP {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1140px;
+  padding: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4rem;
+  color: #fff;
+}
+
+.aboutContent {
+  display: flex;
+  gap: 3rem;
+}
