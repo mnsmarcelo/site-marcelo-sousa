@@ -1,0 +1,17 @@
+.footer {
+  background: #2D2D32;
+  border-top: 1px dotted rgba(255, 255, 255, 0.11);
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+}
+
+.policy span {
+  color: #e5e5e5;
+}
