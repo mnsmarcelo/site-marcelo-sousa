@@ -1,16 +1,15 @@
 .aboutSection {
-  background: #090909;
-  height: 700px;
+  background: #402039;
 }
 
 .sectionHead {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   width: 100%;
 }
 
 .profilePicture {
   border-radius: 50%;
-  box-shadow: rgba(151, 65, 252, 0.2) 0 12px 20px -5px;
+  border: 2px solid #fff;
 }
 
 .title {
@@ -28,14 +27,20 @@
   display: flex;
   flex-direction: column;
   max-width: 1140px;
-  padding: 3rem;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 4rem;
+  padding: 3rem;
   color: #fff;
 }
 
 .aboutContent {
   display: flex;
   gap: 3rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutContent {
+    flex-direction: column;
+  }
 }
