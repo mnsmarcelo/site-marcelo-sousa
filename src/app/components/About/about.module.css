@@ -1,5 +1,5 @@
 .aboutSection {
-  background: #402039;
+  background: #13131f;
 }
 
 .sectionHead {
@@ -21,6 +21,7 @@
 .aboutP {
   font-size: 1.2rem;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 .aboutWrapper {
