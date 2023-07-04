@@ -13,18 +13,16 @@ export const About: FC = () => (
         <div>
           <Image
             className={styles.profilePicture}
-            src="/fot.jpg"
-            width={300}
-            height={300}
+            src="/marcelo-sousa-picture.jpg"
+            width={250}
+            height={250}
             alt="Marcelo Sousa"
           />
         </div>
         <div>
           <p className={styles.aboutP}>
-            {`Olá, meu nome é Marcelo Sousa, sou de Ji-paraná/RO e atualmente moro em Sumaré/SP.
-            Meu interesse sobre desenvolvimento web surgiu ainda em 2009, quando se falava muito que aplicações web era o futuro.
-            Em 2012 surgiu uma oportunidade de trabalhar numa pequena empresa de mídia, criando e customizando sites com Wordpress,
-            foi onde tive que aprender um pouco sobre CSS, HTML e PHP.`}
+            {`Olá, sou desenvolvedor front-end atualmente trabalhando no Banco do Nordeste com ReactJS.
+            Já passei por empresas como a Assertiva em Campinas e Plus-IT e NetPos e iFood Benefícios.`}
           </p>
         </div>
       </div>
