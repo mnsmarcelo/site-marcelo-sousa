@@ -7,8 +7,9 @@ export const Footer: FC = () => (
     <div className={styles.footerWrapper}>
       <div className={styles.policy}>
         <span>
-          <strong>© Marcelo Sousa 2023 </strong>
-          /  All rights reserved.
+          ©
+          <strong> Marcelo Sousa </strong>
+          - 2023
         </span>
       </div>
     </div>
