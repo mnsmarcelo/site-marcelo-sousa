@@ -9,12 +9,13 @@ export const metadata = {
   title: 'Marcelo Sousa | Web Developer',
   description: 'Web Developer',
   themeColor: '#13131f',
+  manifest: '/manifest.json',
   openGraph: {
     title: 'Marcelo Sousa',
     description: 'I build things for the web',
     type: 'website',
     url: 'https://marcelosousa.tech',
-    images: 'image-share-site.jpg',
+    images: '/images/image-share-site.jpg',
   },
 };
 
