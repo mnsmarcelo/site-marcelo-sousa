@@ -8,6 +8,7 @@ export const metadata = {
   title: 'Marcelo Sousa | Web Developer',
   description: 'Web Developer',
   themeColor: '#13131f',
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout({
