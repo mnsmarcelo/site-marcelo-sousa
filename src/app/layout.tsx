@@ -5,10 +5,18 @@ import { Quicksand } from 'next/font/google';
 const quicksand = Quicksand({ subsets: ['latin'] });
 
 export const metadata = {
+  metadataBase: new URL('https://marcelosousa.tech'),
   title: 'Marcelo Sousa | Web Developer',
   description: 'Web Developer',
   themeColor: '#13131f',
   manifest: '/manifest.json',
+  openGraph: {
+    title: 'Marcelo Sousa',
+    description: 'I build things for the web',
+    type: 'website',
+    url: 'https://marcelosousa.tech',
+    images: '/images/image-share-site.jpg',
+  },
 };
 
 export default function RootLayout({
