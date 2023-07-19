@@ -35,8 +35,10 @@ export const WorkAndEducation: FC = () => (
           <div className={styles.workResumeRowRight}>
             <h6 className={styles.workResumeTitle}>iFood Benefícios</h6>
             <p>
-              Criação, manutenção e evolução do micro frontend onde os clientes do iFood Benefícios podem emitir cartões para os seus colaboradores.
-              Emissões de cartões em lotes, segunda via e acompanhamento da entrega são algumas possibilidades.
+              Criação, manutenção e evolução do micro frontend onde os clientes do iFood Benefícios
+              podem emitir cartões para os seus colaboradores.
+              Emissões de cartões em lotes, segunda via e acompanhamento da entrega
+              são algumas possibilidades.
             </p>
           </div>
         </div>
@@ -50,9 +52,15 @@ export const WorkAndEducation: FC = () => (
           <div className={styles.workResumeRowRight}>
             <h6 className={styles.workResumeTitle}>NetPOS</h6>
             <p>
-              Desenvolvimento do zero de um dashboard para os clientes de um software de automação comercial. Essa aplicação web ajuda nossos clientes a realizarem tarefas mais complexas
-              e ter uma gestão melhor das informações do seu estabelecimento numa tela maior como a de um desktop.
-              Também desenvolvi inicialmente um catálogo para que os cliente possam expor os seus produtos e assim vender diretamente pela internet, no início de 2020 com as restrições provocadas pela pandemia da COVD-19, fizemos uma integração com o checkout da PagSeguro, dando a possibilidade ao nosso cliente de vender e receber online.
+              Desenvolvimento do zero de um dashboard para os clientes de um software de automação
+              comercial.
+              Essa aplicação web ajuda nossos clientes a realizarem tarefas mais complexas
+              e ter uma gestão melhor das informações do seu estabelecimento numa tela maior como
+              a de um desktop.
+              Também desenvolvi inicialmente um catálogo para que os cliente possam expor os seus
+              produtos e assim vender diretamente pela internet, no início de 2020 com as
+              restrições provocadas pela pandemia da COVD-19, fizemos uma integração com o checkout
+              da PagSeguro, dando a possibilidade ao nosso cliente de vender e receber online.
             </p>
           </div>
         </div>
@@ -66,7 +74,8 @@ export const WorkAndEducation: FC = () => (
           <div className={styles.workResumeRowRight}>
             <h6 className={styles.workResumeTitle}>PlusIT</h6>
             <p>
-              Participação no desenvolvimento em uma plataforma de empregabilidade para a Kroton Educacional.
+              Participação no desenvolvimento em uma plataforma de
+              empregabilidade para a Kroton Educacional.
             </p>
           </div>
         </div>
@@ -80,7 +89,8 @@ export const WorkAndEducation: FC = () => (
           <div className={styles.workResumeRowRight}>
             <h6 className={styles.workResumeTitle}>Assertiva</h6>
             <p>
-              Desenvolvimento back end com tecnologias como Java, Hibernate e Sql Server. Aplicar correções e feedbacks dos clientes internos.
+              Desenvolvimento back end com tecnologias como Java, Hibernate e Sql Server.
+              Aplicar correções e feedbacks dos clientes internos.
             </p>
           </div>
         </div>
