@@ -1,0 +1,91 @@
+.workAndEducationSection {
+  background: #13131f;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.sectionHead {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.workAndEducationWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+  color: #fff;
+}
+
+.workResumeWrapper {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.workResumeRow {
+  display: flex;
+  flex-wrap: wrap;
+  background: #0b0b13;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .workResumeRow {
+    flex-direction: column;
+  }
+}
+
+.workResumeRowLeft {
+  flex-basis: 25%;
+  max-width: 25%;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .workResumeRowLeft {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.border {
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  height: 100%;
+}
+
+.workResumeRowRight {
+  flex-basis: 75%;
+  max-width: 75%;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .workResumeRowRight {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding-left: 0;
+  }
+}
+
+.workResumeRowRight p, .workResumeRowLeft p {
+  margin-top: 10px;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+.workResumeTitle {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+

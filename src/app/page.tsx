@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Header, HomeIntro, HomeWrapper, About,
-  Footer,
+  Footer, WorkAndEducation,
 } from './components';
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
         </>
       </HomeWrapper>
       <About />
+      <WorkAndEducation />
       <Footer />
     </>
   );
