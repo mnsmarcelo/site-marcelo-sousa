@@ -5,7 +5,7 @@ import { Quicksand } from 'next/font/google';
 const quicksand = Quicksand({ subsets: ['latin'] });
 
 export const metadata = {
-  metadataBase: new URL('https://marcelosousa.tech'),
+  metadataBase: new URL('https://marcelosousa.dev.br'),
   title: 'Marcelo Sousa | Software Engineer',
   description: 'Software Engineer',
   themeColor: '#13131f',
@@ -14,7 +14,7 @@ export const metadata = {
     title: 'Marcelo Sousa',
     description: 'I build things for the web',
     type: 'website',
-    url: 'https://marcelosousa.tech',
+    url: 'https://marcelosousa.dev.br',
     images: '/images/image-share-site.jpg',
   },
 };
