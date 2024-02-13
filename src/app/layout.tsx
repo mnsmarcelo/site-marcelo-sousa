@@ -6,8 +6,8 @@ const quicksand = Quicksand({ subsets: ['latin'] });
 
 export const metadata = {
   metadataBase: new URL('https://marcelosousa.tech'),
-  title: 'Marcelo Sousa | Web Developer',
-  description: 'Web Developer',
+  title: 'Marcelo Sousa | Software Engineer',
+  description: 'Software Engineer',
   themeColor: '#13131f',
   manifest: '/manifest.json',
   openGraph: {

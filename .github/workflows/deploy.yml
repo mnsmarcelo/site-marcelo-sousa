@@ -17,10 +17,12 @@ jobs:
       - run: yarn build
 
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: keithweaver/aws-s3-github-action@v1.0.0
         with:
-          server: 45.152.46.109
-          username: ${{ secrets.FTPUSERNAME }}
-          password: ${{ secrets.FTPPASSWORD }}
-          local-dir: ./out/
-          server-dir: /public_html/
+          command: cp
+          source: ./out/
+          destination: s3://mnsmarcelo-public/
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_region: us-east-2
+          flags: --recursive
