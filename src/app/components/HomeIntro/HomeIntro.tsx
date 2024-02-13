@@ -9,16 +9,16 @@ export const HomeIntro: React.FC = () => (
     <div className={styles.homeIntroWrapper}>
       <div className={styles.headerHero}>
         <span>
-          {'I\'m a front-end'}
+          {'I\'m a software '}
         </span>
         <br />
         <span>
-          developer.
+          engineer.
         </span>
       </div>
       <div className={styles.buttonCVWrapper}>
         <a
-          href="https://marcelosousa.tech/cv/marcelo-sousa.resume.pdf"
+          href="https://mnsmarcelo-public.s3.us-east-2.amazonaws.com/marcelo-sousa.resume.pdf"
           target="_blank"
           rel="noreferrer"
           className={styles.button64}

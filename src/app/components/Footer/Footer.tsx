@@ -9,7 +9,7 @@ export const Footer: FC = () => (
         <span>
           ©
           <strong> Marcelo Sousa </strong>
-          - 2023
+          - 2024
         </span>
       </div>
     </div>
