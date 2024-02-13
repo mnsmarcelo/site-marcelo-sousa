@@ -12,7 +12,7 @@ yarn dev
 pnpm dev
 ```
 
-## [**marcelosousa.tech**](https://marcelosousa.tech/)
+## [**marcelosousa.dev.br**](https://marcelosousa.dev.br/)
 
-[![alt text](https://marcelosousa.tech/images/image-share-site.jpg "Marcelo Sousa")](https://marcelosousa.tech/)
+[![alt text](https://marcelosousa.dev.br/images/image-share-site.jpg "Marcelo Sousa")](https://marcelosousa.dev.br/)
 
