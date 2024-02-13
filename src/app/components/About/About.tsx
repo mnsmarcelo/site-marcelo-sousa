@@ -32,26 +32,30 @@ export const About: FC = () => (
             março de 2023, trabalhei na criação e evolução de micro frontends
             para emissão de cartões de benefícios, utilizando React/NextJS e
             outras tecnologias relacionadas.
-          </p><br />
+          </p>
+          <br />
           <p className={styles.aboutP}>
             Como Javascript Engineer na NetPOS, de outubro de 2018 a dezembro de
             2021, desenvolvi um dashboard e um catálogo para clientes de um
             software de automação comercial, integrando com sistemas de
             pagamento online e utilizando tecnologias como React, Docker,
             NodeJS, e MongoDB.
-          </p><br />
+          </p>
+          <br />
           <p className={styles.aboutP}>
             Antes disso, como Front-end Developer na Plus IT, participei do
             desenvolvimento de uma plataforma de empregabilidade para a Kroton
             Educacional, utilizando AngularJS, CSS, e Java.
-          </p><br />
-         <p className={styles.aboutP}>
-           Iniciei minha carreira como Desenvolvedor Front-end na Assertiva,
-           onde trabalhei no desenvolvimento de um CRM e outras aplicações,
-           utilizando tecnologias como Java, Hibernate, React, NodeJS, e
-           Express.JS, além de participar de hackathons como mentor de
-           negócios e tecnologia.
-         </p><br />
+          </p>
+          <br />
+          <p className={styles.aboutP}>
+            Iniciei minha carreira como Desenvolvedor Front-end na Assertiva,
+            onde trabalhei no desenvolvimento de um CRM e outras aplicações,
+            utilizando tecnologias como Java, Hibernate, React, NodeJS, e
+            Express.JS, além de participar de hackathons como mentor de
+            negócios e tecnologia.
+          </p>
+          <br />
           <p className={styles.aboutP}>
             Minha experiência abrange tanto o desenvolvimento front-end quanto
             back-end, utilizando uma variedade de tecnologias e participando
