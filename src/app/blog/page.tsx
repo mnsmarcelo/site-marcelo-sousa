@@ -1,9 +1,13 @@
 import React from 'react';
+import { Footer, Header, HomeWrapper } from '@/app/components';
 
 export default function BlogPage() {
   return (
-    <div>
-      <h1>Sobre nós</h1>
-    </div>
+    <>
+      <HomeWrapper>
+        <Header />
+      </HomeWrapper>
+      <Footer />
+    </>
   );
 }
