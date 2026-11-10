@@ -27,20 +27,39 @@
     margin-top: 3rem;
 }
 
-.headerHero span {
-    color: #e5e5e5;
-    font-size: 5rem;
-    font-weight: bolder;
+.headerHero h1 {
+  color: #e5e5e5;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.headerHero h3 {
+  color: #e5e5e5;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.headerHero p {
+  color: #e5e5e5;
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 768px) {
-    .headerHero span {
+    .headerHero h1 {
         font-size: 4rem;
     }
+  .headerHero h3 {
+    font-size: 2rem;
+  }
+  .headerHero p {
+    font-size: 1rem;
+  }
+
 }
 
 @media screen and (max-width: 481px) {
-    .headerHero span {
+    .headerHero h1 {
         font-size: 3rem;
     }
 }

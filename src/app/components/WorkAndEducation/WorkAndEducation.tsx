@@ -28,7 +28,7 @@ export const WorkAndEducation: FC = () => (
         <div className={styles.workResumeRow}>
           <div className={styles.workResumeRowLeft}>
             <div className={styles.border}>
-              <h6 className={styles.workResumeTitle}>Softwate Engineer</h6>
+              <h6 className={styles.workResumeTitle}>Software Engineer</h6>
               <p>Janeiro 2022 - Março 2023</p>
             </div>
           </div>
