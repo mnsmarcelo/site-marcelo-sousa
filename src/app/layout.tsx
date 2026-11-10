@@ -6,7 +6,7 @@ const quicksand = Quicksand({ subsets: ['latin'] });
 
 export const metadata = {
   metadataBase: new URL('https://marcelosousa.dev.br'),
-  title: 'Marcelo Sousa | Software Engineer',
+  title: 'Marcelo Sousa | Full Stack · Software Architecture',
   description: 'Software Engineer',
   themeColor: '#13131f',
   manifest: '/manifest.json',
