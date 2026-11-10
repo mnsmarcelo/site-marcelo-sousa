@@ -15,7 +15,10 @@ export const HomeIntro: React.FC = () => (
         <h3>
           Full Stack · Software Architecture
         </h3>
-        <p>Construindo aplicações escaláveis com React, TypeScript, Java e Spring Boot. Experiência em sistemas corporativos, micro-frontends e arquitetura de software.</p>
+        <p>
+          onstruindo aplicações escaláveis com React, TypeScript, Java e Spring Boot.
+          Experiência em sistemas corporativos, micro-frontends e arquitetura de software.
+        </p>
       </div>
       <div className={styles.buttonCVWrapper}>
         <a
