@@ -9,7 +9,7 @@ export const Header: React.FC = () => (
       <nav className={styles.nav}>
         <ul className={styles.navWrapper}>
           <li className={styles.navItem}><a href="/">Home</a></li>
-          <li className={styles.navItem}><a href="/blog">Blog</a></li>
+          <li className={styles.navItem}><a href="/blog/">Blog</a></li>
         </ul>
       </nav>
     </div>
