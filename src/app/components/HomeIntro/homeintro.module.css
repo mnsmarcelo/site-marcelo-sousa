@@ -20,7 +20,7 @@
 }
 
 .headerHero {
-    top: 2rem;
+    top: 1rem;
 }
 
 .buttonCVWrapper {
@@ -118,6 +118,12 @@
     display: flex;
     gap: 7px;
     margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  .socialLinks {
+    margin-top: 1rem;
+  }
 }
 
 .socialLinks a {

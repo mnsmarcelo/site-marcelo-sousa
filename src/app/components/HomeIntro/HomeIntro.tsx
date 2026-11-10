@@ -16,7 +16,7 @@ export const HomeIntro: React.FC = () => (
           Full Stack · Software Architecture
         </h3>
         <p>
-          onstruindo aplicações escaláveis com React, TypeScript, Java e Spring Boot.
+          Construindo aplicações escaláveis com React, TypeScript, Java e Spring Boot.
           Experiência em sistemas corporativos, micro-frontends e arquitetura de software.
         </p>
       </div>
