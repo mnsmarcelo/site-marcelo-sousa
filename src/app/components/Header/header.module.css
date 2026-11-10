@@ -18,41 +18,22 @@
     margin-right: auto;
 }
 
-@media (min-width: 600px) {
-    .siteHeaderWrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+.siteHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-@media (min-width: 600px) {
-    .navWrapper {
-        display: flex;
-    }
+.navWrapper {
+  display: flex;
 }
 
-@media (max-width: 599px) {
-    .navWrapper {
-        position: absolute;
-        top: 100%;
-        right: 0;
-        left: 0;
-        z-index: -1;
-        background-color: #e5e5e5;
-        visibility: hidden;
-        opacity: 0;
-        transform: translateY(-100%);
-        transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-    }
-
-    .navWrapper.active {
-        visibility: visible;
-        opacity: 1;
-        transform: translateY(0);
-    }
+.navWrapper.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .navItem a {
